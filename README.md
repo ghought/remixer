@@ -1,20 +1,39 @@
-A content remixing tool using React.
+# Content Remix App
+
+A simple content remixing tool using React that allows users to transform text using AI.
 
 ## Features
 
-1. Paste in text we want to remix
-2. Click a button to apple the remixing we want for it
-3. Send the request to an AI API endpoing
-4. See the remix in an output box
-5. Add other styling and features that we want as we go
+1. Text input area for pasting content to remix
+2. Multiple remix options (buttons) like:
+   - Make it funny
+   - Make it professional
+   - Simplify it
+   - Make it poetic
+3. AI-powered transformation using OpenAI API
+4. Display remixed content in an output box
+5. Clean, modern UI using Tailwind CSS and Shadcn UI
 
 ## Tech Stack
 
 - React
 - Tailwind CSS
-- Vercel
-- Shadcn UI
-- OpenAI API
+- Vercel (for deployment)
+- Shadcn UI (for components)
+- OpenAI API (for text transformation)
+
+## Getting Started
+
+1. Clone this repository
+2. Install dependencies: `npm install`
+3. Create a `.env.local` file and add your OpenAI API key:
+   ```
+   OPENAI_API_KEY=your_key_here
+   ```
+4. Run the development server: `npm run dev`
+5. Open [http://localhost:3000](http://localhost:3000)
+
+## Project Structure
 
 ## Challenges
 
